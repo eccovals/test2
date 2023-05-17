@@ -23,7 +23,7 @@ export default function UserList() {
         ))}
       </ul>
       <input type="text" value={inputValue} onChange={handleInputChange}></input>
-      <button onClick={handleAddUser}>Add Usrrrrers</button>
+      <button onClick={handleAddUser}>Add Users</button>
     </div>
   );
 }
